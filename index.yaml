@@ -3,9 +3,9 @@ entries:
   next-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-01T18:59:52.705549+09:00"
+    created: "2024-12-01T19:44:04.605087+09:00"
     description: nextjs application
-    digest: a0eae53bc0db8997b2bdc31dc4940beecad427e52863a451c176f55e80ca71f4
+    digest: f7b22cecaf0ee45ea45b1ddba8f02a9b65c8f2c30d40400296c983ea8498a49f
     home: https://google.com
     kubeVersion: '>= 1.27.0'
     maintainers:
@@ -15,4 +15,4 @@ entries:
     urls:
     - next-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-01T18:59:52.704998+09:00"
+generated: "2024-12-01T19:44:04.604358+09:00"
