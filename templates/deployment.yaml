@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: next-deployment
+
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: next-app
+
+  template:
+    metadata:
+      labels:
+        app: next-app
+
+    spec:
+      containers:
+        - name: next-container
+          image: next-application-image
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000

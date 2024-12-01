@@ -1,0 +1,12 @@
+apiVersion: v2
+name: next-app
+description: "nextjs application"
+
+version: 0.1.0
+appVersion: "1.16.0"
+kubeVersion: ">= 1.27.0"
+
+home: https://google.com
+maintainers:
+  - name: sangsangsangeeee
+    email: sy.nam@pet-friends.co.kr

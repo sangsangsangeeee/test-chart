@@ -1,0 +1,9 @@
+app:
+  appName: next-app
+
+replicaCount: 4
+
+image:
+  pullPolicy: IfNotPresent
+  repository: next-application-image
+  port: 3000
